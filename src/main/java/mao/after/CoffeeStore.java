@@ -16,7 +16,7 @@ package mao.after;
 
 public class CoffeeStore
 {
-    private final SimpleCoffeeFactory simpleCoffeeFactory = new SimpleCoffeeFactory();
+    private static final SimpleCoffeeFactory simpleCoffeeFactory = new SimpleCoffeeFactory();
 
     public Coffee orderCoffee(String type)
     {
